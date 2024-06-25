@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  llm-test:
+    container_name: llm-test
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - .:/app/
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: ["gpu"]

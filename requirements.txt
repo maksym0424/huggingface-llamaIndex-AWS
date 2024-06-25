@@ -1,0 +1,13 @@
+transformers
+torch
+accelerate
+python-dotenv
+pydantic
+pytesseract 
+Pillow 
+PyPDF2 
+pdf2image
+llama-index
+llama-index-vector-stores-faiss
+llama-index-embeddings-huggingface
+faiss-gpu-cu12
