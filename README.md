@@ -72,7 +72,7 @@ If it is not installed yet, you can follow below commands to install.
 
 ## How to Run
 
-1. Clone the repository with ```git clone https://github.com/jtjli/llm1.git```.
+1. Clone the repository with ```git clone```.
 
 2. Copy ```.env.example``` and rename it as ```.env```
 
